@@ -1,0 +1,68 @@
+*{margin: 0;
+padding: 0;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;    /* Centraliza verticalmente */
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: rgb(122, 122, 122); /* Adicionei um background para contraste */
+
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: white;
+  font-style: italic;
+}
+
+p {
+  color: #ffffff;
+  font-size: 60px;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center; /* Centraliza o texto dentro do parágrafo */
+}
+
+button {
+  border-radius: 20px;
+  border: 2px solid rgba(122, 122, 122);
+  height: 45px;
+  width: 85px;
+  font-size: 1em;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+button:hover {
+  border-color: #000000;
+}
+
+
+section {
+  text-align: center;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;  
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+transition: background-color 0.6s ease; /* Transição suave */
+}
+
+.positivo {
+  background-color: #3A5A40; /* Verde escuro */
+}
+
+.negativo {
+  background-color: #540B0E; /* Vermelho escuro */
+}
+
+.neutro {
+  background-color: rgb(122, 122, 122); /* Fundo branco quando o número é zero */
+}
